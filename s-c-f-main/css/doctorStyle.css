@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div,
+a {
+    display: block;
+}
+
+body {
+    background-color: #dde1e6;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.table {
+    width: 90%;
+}
+
+.request-details {
+    width: 50%;
+}
+
+#openModalBtn {
+    float: right;
+    height: fit-content;
+    background-color: #ececec;
+    border: #000000;
+    color: black;
+}
+
+.main-body {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.modal-dialog {
+    display: flex;
+    flex-direction: column;
+}
+
+.meal {
+    width: 60%;
+}
+
+.treat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-footer {
+    margin-top: 10px;
+}
+
+tbody tr:hover {
+    background-color: #f7f0f0;
+}
+
+.home-card:hover {
+    background-color: #cecbcb;
+}
+
+#patientRequestHistory {
+    width: 70%;
+}
